@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"simpletextfield": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Sunt velit ullamco et incididunt excepteur adipisicing deserunt voluptate est voluptate. Velit mollit et cupidatat minim ad minim aliquip non."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
