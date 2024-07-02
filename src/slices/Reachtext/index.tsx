@@ -1,5 +1,5 @@
 import { Content } from "@prismicio/client";
-import { SliceComponentProps } from "@prismicio/react";
+import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
 
 /**
  * Props for `Reachtext`.
@@ -15,7 +15,7 @@ const Reachtext = ({ slice }: ReachtextProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      Placeholder component for reachtext (variation: {slice.variation}) Slices
+      <PrismicRichText field={slice.primary.simpletextfield} />
     </section>
   );
 };

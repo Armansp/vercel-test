@@ -11,6 +11,9 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
+            "hero_2": {
+              "type": "SharedSlice"
+            },
             "reachtext": {
               "type": "SharedSlice"
             }
